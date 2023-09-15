@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/reactdemowebsite/static/css/main.2da133f7.css",
+    "main.js": "/reactdemowebsite/static/js/main.20d62be8.js",
+    "static/js/787.71e672d5.chunk.js": "/reactdemowebsite/static/js/787.71e672d5.chunk.js",
+    "static/media/car3.jpg": "/reactdemowebsite/static/media/car3.1af3005ff71c9546fde8.jpg",
+    "static/media/car4.jpg": "/reactdemowebsite/static/media/car4.da074c7d36071e836975.jpg",
+    "static/media/bhupiservices.png": "/reactdemowebsite/static/media/bhupiservices.314b0609f9c4135e5e0e.png",
+    "static/media/aboutb.avif": "/reactdemowebsite/static/media/aboutb.88e13e0efa5a5753f55e.avif",
+    "static/media/delivery.avif": "/reactdemowebsite/static/media/delivery.21c9816bcfd3dd9fd79e.avif",
+    "static/media/logo.svg": "/reactdemowebsite/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/reactdemowebsite/index.html",
+    "main.2da133f7.css.map": "/reactdemowebsite/static/css/main.2da133f7.css.map",
+    "main.20d62be8.js.map": "/reactdemowebsite/static/js/main.20d62be8.js.map",
+    "787.71e672d5.chunk.js.map": "/reactdemowebsite/static/js/787.71e672d5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2da133f7.css",
+    "static/js/main.20d62be8.js"
+  ]
+}
