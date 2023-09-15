@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  text-align: center; 
 }
 
 .App-logo {
@@ -35,4 +35,45 @@
   to {
     transform: rotate(360deg);
   }
+}
+.row{
+  font-family: 'Josefin Sans', sans-serif!important;
+}
+.navbar{
+  background-color: white!important;
+}
+.navbar-brand{
+  font-size: 1.9rem!important;
+  color:#565387
+}
+.navbar a{
+  font-size: 1.3rem;
+  text-transform: capitalize;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+  color: #FF5722!important;
+  border-bottom: 2px solid #FF9800!important;
+}
+.brandname{
+  color:#60b8ff;
+}
+#header{
+  width: 100%;
+  height: 50vh;
+  margin-top: 70px;
+}
+#header h1{
+  margin: 0 0 10px 0;
+  font-size: 48px; 
+}
+#header h2{
+  margin: 0 0 10px 0;
+  font-size: 28px; 
+}
+.animated{
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+@keyframes up-down{
+  0%{transform: translateY(10px);}
+  1000%{transform: translateY(-10px);}
 }

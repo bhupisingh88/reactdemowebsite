@@ -1,25 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import { Routes, Route } from "react-router-dom";
+import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+import "../node_modules/bootstrap/dist/js/bootstrap.bundle";
 
-function App() {
+import Home from "./Home";
+import About from "./About";
+import Contact from "./Contact";
+import Service from "./Service";
+import Navbar from "./Navbar";
+import Footer from "./Footer";
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Navbar />
+      <div className="container-fluid nav_bg">
+        <div className="row">
+          <div className="col-10 mx-auto">
+            <Routes>
+              <Route path="/" element={<Home />}></Route>
+              <Route exact path="/about" element={<About />}></Route>
+              <Route exact path="/contact" element={<Contact />}></Route>
+              <Route exact path="/service" element={<Service />}></Route> 
+              <Route path="*" element={<Home />}></Route>
+            </Routes>
+            <Footer/>
+          </div>
+        </div>
+      </div>
+    </>
   );
-}
+};
 
 export default App;
